@@ -1,0 +1,1060 @@
+.hero,
+header,
+header > div:first-of-type {
+    box-shadow: rgba(50, 50, 93, .25) 0 6px 12px -2px, rgba(0, 0, 0, .3) 0 3px 7px -3px
+}
+
+.algemenevoorwaarden,
+.succespagina {
+    min-height: 60vh
+}
+
+*,
+::after,
+::before {
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Fredoka One"
+}
+
+.bestelcontainer,
+.overons {
+    margin-bottom: 100px
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #ffff;
+    z-index: 999;
+    border-bottom: 5px solid #660909
+}
+
+header > div:first-of-type {
+    background: #660909;
+    color: #ffff;
+    padding: 5px 0
+}
+
+footer > div:first-of-type,
+header > div:first-of-type div,
+header > div:nth-of-type(2) {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+header > div:first-of-type div p,
+header > div:first-of-type div section {
+    margin: 0;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 15px
+}
+
+header > div:first-of-type div section a {
+    color: #ffff;
+    font-size: 20px
+}
+
+header > div:first-of-type div section a:last-child {
+    margin-left: 10px
+}
+
+footer > div:first-of-type section ul li:last-child a:hover,
+header > div:first-of-type div section a:hover {
+    color: #ff9d03;
+    transition: .3s
+}
+
+.contact > div section form span input,
+.contact > div section:nth-of-type(2) div,
+.hero > div section,
+.prijspagina > div:nth-of-type(2) section div:first-of-type,
+.prijspagina > div:nth-of-type(2) section div:nth-of-type(2),
+.prijspagina > div:nth-of-type(2) section div:nth-of-type(3),
+.prijzen > div:nth-of-type(2) a,
+header > div:nth-of-type(2) a {
+    margin: 0
+}
+
+header > div:nth-of-type(2) a img {
+    width: 120px;
+    height: auto;
+    margin: 0;
+    padding: 10px 0
+}
+
+header > div:nth-of-type(2) ul {
+    display: flex;
+    list-style: none;
+    margin: 0
+}
+
+header > div:nth-of-type(2) ul li {
+    margin: 0 15px
+}
+
+footer > div:first-of-type section ul li:last-child a:last-child,
+header > div:nth-of-type(2) ul li:nth-of-type(4) {
+    margin-right: 0
+}
+
+#bestelbtn,
+#bestelcontent,
+#hamburgerbtn,
+header > div:nth-of-type(2) ul li:last-child {
+    display: none
+}
+
+header > div:nth-of-type(2) ul li a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 0;
+    font-size: 1.5em
+}
+
+header > div:nth-of-type(2) ul li a:hover {
+    color: #660909;
+    transition: .3s
+}
+
+@media only screen and (max-width:470px) {
+    header > div:first-of-type div p:nth-of-type(2) {
+        display: none
+    }
+}
+
+@keyframes hamburgeropen {
+    from {
+        left: 1000px
+    }
+
+    to {
+        left: 0
+    }
+}
+
+@keyframes hamburgerclose {
+    from {
+        left: 0
+    }
+
+    to {
+        left: 1000px
+    }
+}
+
+main {
+    margin-top: 140px;
+    min-height: 400px
+}
+
+.hero {
+    background: #f7cc8a
+}
+
+.hero > div {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto 100px;
+    padding-bottom: 75px
+}
+
+.hero > div section:first-of-type a,
+.overons > div section:first-of-type div a,
+.succespagina a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background: #660909;
+    color: #ffff;
+    font-family: Montserrat;
+    font-weight: 500;
+    text-align: center
+}
+
+.hero > div section:first-of-type p{
+    font-size: 2em;
+    font-family: Montserrat;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.hero > div section:first-of-type p span{
+    color: #660909;
+}
+
+.hero > div section:first-of-type h1 {
+    font-size: 3em;
+    margin-bottom: 15px
+}
+
+.hero > div section:first-of-type h2 {
+    font-size: 2em;
+    font-family: Montserrat;
+    font-weight: 500
+}
+
+.hero > div section:first-of-type a,
+.succespagina a {
+    border-radius: 4px;
+    max-width: 200px;
+    margin: 25px 0 0;
+    font-size: 1em;
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 2px 0, rgba(60, 64, 67, .15) 0 1px 3px 1px
+}
+
+.contact > div section form #send:hover,
+.hero > div section:first-of-type a:hover,
+.overons > div section:first-of-type div a:hover,
+.succespagina a:hover {
+    background: #a92121;
+    transition: .3s
+}
+
+.hero > div section:nth-of-type(2) img {
+    max-width: 400px;
+    height: auto;
+    transform: rotate(342deg);
+    animation: 1.5s infinite alternate-reverse draaidoner
+}
+
+.donerkortingtext {
+    font-size: 20px;
+    background: red;
+    text-align: center;
+    color: #ffff;
+    font-weight: 500;
+    width: max-content;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-family: Montserrat;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: rgb(60 64 67 / 30%) 0 1px 2px 0, rgb(60 64 67 / 15%) 0 1px 3px 1px;
+}
+
+@keyframes draaidoner {
+    from {
+        transform: rotate(20deg)
+    }
+
+    to {
+        transform: rotate(-20deg)
+    }
+}
+
+@media only screen and (max-width:1320px) {
+    .hero > div section:nth-of-type(2) img {
+        max-width: 250px;
+        margin-right: 50px
+    }
+}
+
+@media only screen and (max-width:1045px) {
+    .hero > div section:nth-of-type(2) img {
+        max-width: 200px
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .hero > div section:first-of-type h1 {
+        font-size: 2em
+    }
+
+    .hero > div section:first-of-type h2 {
+        font-size: 1.5em
+    }
+}
+
+@media only screen and (max-width:310px) {
+    .hero > div section:nth-of-type(2) img {
+        max-width: 200px
+    }
+}
+
+.bestelcontainer {
+    margin-top: -200px
+}
+
+.bestelcontainer > div {
+    max-width: 1200px;
+    margin: 0 auto
+}
+
+.bestelcontainer > div section {
+    max-width: 600px;
+    margin: 0
+}
+
+.bestelcontainer > div section div:first-of-type {
+    display: flex
+}
+
+.bestelcontainer > div section div:first-of-type h2 {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin: 0;
+    padding: 10px 30px;
+    background: #c7c7c7;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-family: Montserrat;
+    font-weight: 600
+}
+
+.bestelcontainer > div section div:first-of-type h2:hover {
+    background: #e3e2e2;
+    transition: .3s
+}
+
+.bestelcontainer > div section div:first-of-type h2.activeselection {
+    background: #ffff;
+    position: relative
+}
+
+.bestelcontainer > div section div:first-of-type h2:first-of-type {
+    margin-right: 25px
+}
+
+.bestelcontainer > div section div:nth-of-type(2) {
+    width: 100%;
+    margin-top: -2px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 15px;
+    height: 220px;
+    background: #ffff;
+    position: relative;
+    box-shadow: rgb(50 50 93 / 25%) 0 6px 12px -2px, rgb(0 0 0 / 30%) 0 3px 7px -3px
+}
+
+.bestelcontainer > div section div:nth-of-type(2) a,
+.contact > div section form #send,
+.overons > div section:first-of-type div a {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 2px 0, rgba(60, 64, 67, .15) 0 1px 3px 1px
+}
+
+.bestelcontainer > div section div:nth-of-type(2) p {
+    font-family: Montserrat;
+    font-weight: 500;
+    position: absolute;
+    width: 80%;
+    left: 15px
+}
+
+.bestelcontainer > div section div:nth-of-type(2) p:first-child {
+    top: 15px
+}
+
+.bestelcontainer > div section div:nth-of-type(2) p:nth-child(2) {
+    top: 80px
+}
+
+#afhalencontent p:nth-child(2) {
+    font-weight: 600
+}
+
+.bestelcontainer > div section div:nth-of-type(2) p:last-child {
+    bottom: 15px
+}
+
+#bestelcontent p:last-child {
+    width: 95%
+}
+
+.bestelcontainer > div section div:nth-of-type(2) a {
+    position: absolute;
+    display: block;
+    right: 40px;
+    top: 40%;
+    background: #1fa006;
+    color: #ffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-weight: 500
+}
+
+.bestelcontainer > div section div:nth-of-type(2) a:hover {
+    background: #4cd931;
+    transition: .3s
+}
+
+#bestelcontent a {
+    top: 35%;
+    left: 10px;
+    right: auto
+}
+
+@media only screen and (max-width:1320px) {
+    .bestelcontainer {
+        margin-top: -150px
+    }
+}
+
+@media only screen and (max-width:1030px) {
+    .bestelcontainer {
+        margin-top: -130px
+    }
+}
+
+@media only screen and (max-width:700px) {
+
+    #hamburgerbtn,
+    #hamburgerclose {
+        background: 0 0;
+        border: none;
+        font-size: 2em;
+        color: #000
+    }
+
+    header > div:nth-of-type(2) ul {
+        display: none
+    }
+
+    #bestelbtn,
+    #hamburgerbtn,
+    header > div:nth-of-type(2) ul li:last-child {
+        display: block
+    }
+
+    #bestelbtn {
+        background: #21a004;
+        color: #ffff;
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        text-align: center;
+        font-family: Montserrat;
+        font-weight: 500;
+        box-shadow: rgba(60, 64, 67, .3) 0 1px 2px 0, rgba(60, 64, 67, .15) 0 1px 3px 1px
+    }
+
+    #bestelbtn:hover {
+        background: #4cd931;
+        transition: .3s
+    }
+
+    #hamburgerclose {
+        position: absolute;
+        top: 70px;
+        right: 40px
+    }
+
+    #hamburgerbtn {
+        margin: 0 20px 0 0
+    }
+
+    .hamburgerclose,
+    .hamburgeropen {
+        position: fixed;
+        display: block !important;
+        width: 100vw;
+        height: 100vh;
+        z-index: 999;
+        background: #ffff;
+        top: 0;
+        left: 1000px;
+        animation: 1s forwards hamburgeropen
+    }
+
+    .hamburgerclose {
+        animation: 1s forwards hamburgerclose
+    }
+
+    .hamburgerclose li:first-child,
+    .hamburgeropen li:first-child {
+        margin-top: 100px
+    }
+
+    .hamburgerclose li,
+    .hamburgeropen li {
+        font-size: 1.2em !important;
+        margin-left: 30px !important;
+        margin-bottom: 25px !important
+    }
+
+    .bestelcontainer > div section {
+        max-width: 100%
+    }
+
+    .bestelcontainer > div section div:nth-of-type(2) p {
+        width: 90%
+    }
+}
+
+@media only screen and (max-width:600px) {
+    header > div:nth-of-type(2) a img {
+        width: 90px
+    }
+
+    .hero > div {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        padding-bottom: 150px !important
+    }
+
+    .bestelcontainer {
+        margin-top: -175px
+    }
+
+    #afhalencontent a {
+        top: 32%
+    }
+
+    .bestelcontainer > div section div:nth-of-type(2) {
+        height: 250px
+    }
+
+    .bestelcontainer > div section div:first-of-type h2 {
+        font-size: 1em;
+        padding: 10px 15px
+    }
+}
+
+@media only screen and (max-width:390px) {
+    .bestelcontainer > div section div:nth-of-type(2) {
+        height: 300px
+    }
+
+    #afhalencontent p:nth-child(2) {
+        top: 65px
+    }
+
+    #afhalencontent a {
+        top: 48%;
+        right: auto;
+        left: 10px
+    }
+
+    .bestelcontainer > div section div:first-of-type h2:first-of-type {
+        margin-right: 10px
+    }
+}
+
+.overons > div {
+    margin: 0 auto;
+    max-width: 1200px;
+    background: #f7cc8a;
+    padding: 50px 50px;
+    border-radius: 25px;
+}
+
+.overons > div section:first-of-type h2 {
+    font-size: 2em;
+    margin-bottom: 25px
+}
+
+.algemenevoorwaarden p,
+.overons > div section:first-of-type p {
+    font-family: Montserrat;
+    font-weight: 500;
+    margin-bottom: 25px
+}
+
+.overons > div section:first-of-type div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+    margin: 0
+}
+
+.overons > div section:first-of-type div a {
+    width: 160px;
+    border-radius: 5px;
+    margin: 0 0 25px
+}
+
+.overonspagina {
+    margin-top: 50px;
+    background: 0 0;
+    box-shadow: none
+}
+
+.contact,
+.fotolijst,
+.prijspagina {
+    margin-top: 210px
+}
+
+.fotolijst > div,
+.prijspagina > div:first-of-type {
+    max-width: 1200px;
+    margin: 50px auto 0
+}
+
+.contact > div section:nth-of-type(2),
+.fotolijst > div section,
+footer > div:first-of-type section.openingstijden div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.fotolijst > div section img {
+    width: 45%;
+    margin: 25px 0 0;
+    box-shadow: rgba(14, 30, 37, .12) 0 2px 4px 0, rgba(14, 30, 37, .32) 0 2px 16px 0
+}
+
+@media only screen and (max-width:410px) {
+    .overons > div section:first-of-type div {
+        flex-direction: column;
+        align-items: flex-start
+    }
+}
+
+.prijzen {
+    background: #f7cc8a;
+    padding: 50px 0
+}
+
+.prijspagina > div:first-of-type span {
+    display: flex;
+    margin-bottom: 50px
+}
+
+.prijspagina > div:first-of-type span a {
+    margin: 0 25px 0 0;
+    font-size: 2em;
+    color: #000
+}
+
+.prijspagina > div:first-of-type span h1 {
+    margin: 0;
+    font-size: 2em
+}
+
+.prijspagina > div:nth-of-type(2),
+.prijzen > div:first-of-type {
+    max-width: 1200px;
+    margin: 0 auto 50px
+}
+
+.prijspagina > div:nth-of-type(2) section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 3px solid #660909;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    background: #fbead0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.prijspagina > div:nth-of-type(2) section div:first-of-type img {
+    width: 100px;
+    height: auto
+}
+
+.prijspagina > div:nth-of-type(2) section div:nth-of-type(2) {
+    width: 33%
+}
+
+.prijspagina > div:nth-of-type(2) section div:nth-of-type(2) h2 {
+    font-size: 1.2em;
+    color: #660909
+}
+
+.prijspagina > div:nth-of-type(2) section div:nth-of-type(2) p {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 10px
+}
+
+.prijspagina > div:nth-of-type(2) section div:nth-of-type(2) p a {
+    text-decoration: none;
+    color: #000;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 12px
+}
+
+.contact > div,
+.prijzen > div:nth-of-type(2) {
+    margin: 0 auto;
+    max-width: 1200px
+}
+
+.prijspagina > div:nth-of-type(2) section div:nth-of-type(3) p {
+    font-size: 1.5em;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #1fa006
+}
+
+@media only screen and (max-width:750px) {
+    .prijspagina > div:nth-of-type(2) section {
+        padding: 20px 0
+    }
+
+    .prijspagina > div:first-of-type span {
+        margin-bottom: 25px
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .prijspagina > div:nth-of-type(2) section {
+        padding: 20px 0
+    }
+
+    .prijspagina > div:nth-of-type(2) section div:first-of-type img {
+        width: 60px;
+        height: auto
+    }
+
+    .prijspagina > div:nth-of-type(2) section div:nth-of-type(2) {
+        width: 55%
+    }
+
+    .prijspagina > div:nth-of-type(2) section div:nth-of-type(2) h2,
+    .prijspagina > div:nth-of-type(2) section div:nth-of-type(3) p {
+        font-size: 1em
+    }
+}
+
+.succespagina {
+    background: 0 0;
+    display: grid;
+    align-items: center
+}
+
+.prijzen > div:first-of-type h1,
+.prijzen > div:first-of-type h2 {
+    font-size: 2em;
+    margin-bottom: 15px
+}
+
+.contact > div section a,
+.contact > div section p,
+.prijzen > div:first-of-type h3,
+footer > div:nth-of-type(2) p span {
+    font-family: Montserrat;
+    font-weight: 500
+}
+
+.prijzen > div:nth-of-type(2) {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 100px
+}
+
+.prijzen > div:nth-of-type(2) a:hover img {
+    transform: scale(1.1);
+    transition: .3s
+}
+
+.prijzen > div:nth-of-type(2) a section {
+    width: 100%;
+    height: 200px;
+    background: #ffff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, .15) 2.4px 2.4px 3.2px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px
+}
+
+.prijzen > div:nth-of-type(2) a section h3 {
+    font-size: 1.2em;
+    color: #000;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    width: 100%
+}
+
+.prijzen > div:nth-of-type(2) a section img {
+    width: 100px;
+    margin-top: 15px
+}
+
+@media only screen and (max-width:1210px) {
+
+    .bestelcontainer > div,
+    .contact > div,
+    .fotolijst > div,
+    .overons > div,
+    .prijspagina > div:first-of-type,
+    .prijspagina > div:nth-of-type(2),
+    .prijzen > div:first-of-type,
+    .prijzen > div:nth-of-type(2),
+    footer > div:first-of-type,
+    header > div:first-of-type div,
+    header > div:nth-of-type(2) {
+        padding: 0 15px
+    }
+    
+    .overons > div{
+        padding: 15px;
+        border-radius: 0;
+    }
+
+    .hero > div {
+        padding: 50px 15px
+    }
+
+    .prijzen > div:nth-of-type(2) {
+        column-gap: 50px
+    }
+}
+
+@media only screen and (max-width:950px) {
+    .prijzen > div:nth-of-type(2) {
+        grid-template-columns: auto auto auto
+    }
+}
+
+@media only screen and (max-width:650px) {
+    .prijzen > div:nth-of-type(2) {
+        grid-template-columns: auto auto;
+        column-gap: 25px
+    }
+
+    .contact,
+    .fotolijst,
+    .prijspagina {
+        margin-top: 170px
+    }
+
+    .fotolijst > div h1,
+    .prijzen > div:nth-of-type(2) a section {
+        margin-bottom: 25px
+    }
+
+    .fotolijst > div {
+        padding-top: 0
+    }
+
+    .fotolijst > div section {
+        flex-direction: column;
+        margin-bottom: 50px
+    }
+
+    .fotolijst > div section img {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 50px
+    }
+
+    .fotolijst > div section img:last-child {
+        margin-bottom: 0
+    }
+
+    .overonspagina {
+        margin-top: 0
+    }
+}
+
+.contact > div h1,
+.contact > div section h2 {
+    margin-bottom: 15px
+}
+
+.contact > div section {
+    margin-bottom: 50px
+}
+
+.contact > div section:nth-of-type(2) div:last-child {
+    width: 500px
+}
+
+.contact > div section form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: initial;
+    margin: 0
+}
+
+.contact > div section form input[type=email],
+.contact > div section form input[type=number],
+.contact > div section form input[type=text],
+.contact > div section form textarea {
+    margin: 0 0 40px;
+    padding: 15px 5px;
+    background: 0 0;
+    border: none;
+    border-bottom: 1px solid #660909;
+    -webkit-border-bottom: 1px solid #660909;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    outline: 0;
+    font-family: Montserrat;
+    font-weight: 500
+}
+
+.contact > div section form textarea {
+    height: 150px;
+    resize: none
+}
+
+.contact > div section form span {
+    margin: 0 0 10px;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center
+}
+
+.contact > div section form span label {
+    margin: 0 0 0 5px
+}
+
+.contact > div section form #send {
+    background: #660909;
+    color: #ffff;
+    border: none;
+    padding: 15px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    width: 100%
+}
+
+.algemenevoorwaardencheck a {
+    font-family: "Fredoka One" !important;
+    color: #000
+}
+
+@media only screen and (max-width:1060px) {
+    .contact > div section:nth-of-type(2) div:last-child {
+        width: 400px
+    }
+}
+
+footer {
+    background: #660909;
+    color: #ffff;
+    padding: 25px 0 75px;
+    position: relative
+}
+
+footer > div:first-of-type section {
+    width: 280px;
+    margin: 0;
+    position: relative
+}
+
+footer > div:first-of-type section h2 {
+    font-size: 1.4em;
+    margin-bottom: 15px
+}
+
+footer > div:first-of-type section a img {
+    width: 130px;
+    height: auto;
+    margin-bottom: 15px
+}
+
+footer > div:first-of-type section ul {
+    list-style: none;
+    margin: 0
+}
+
+footer > div:first-of-type section ul li a {
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: 500
+}
+
+footer > div:first-of-type section ul li {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 7px
+}
+
+footer > div:first-of-type section ul li span {
+    margin-right: 5px
+}
+
+footer > div:first-of-type section ul li:last-child {
+    margin-top: 25px
+}
+
+footer > div:first-of-type section ul li:last-child a {
+    font-size: 30px;
+    color: #fff;
+    margin-right: 15px
+}
+
+footer > div:first-of-type section div p {
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 500;
+    margin: 0 0 7px
+}
+
+footer > div:first-of-type section.bezorgtijden div:last-child p {
+    margin-top: 10px;
+    position: absolute;
+    bottom: -75px
+}
+
+footer > div:nth-of-type(2) {
+    background: #ffff;
+    padding: 5px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0 auto;
+    color: #000
+}
+
+footer > div:nth-of-type(2) p {
+    font-size: 13px;
+    font-family: Montserrat;
+    font-weight: 500;
+    text-align: center
+}
+
+@media only screen and (max-width:950px) {
+    .contact > div section:nth-of-type(2) {
+        align-items: flex-start;
+        flex-direction: column
+    }
+
+    .contact > div section form,
+    .contact > div section:nth-of-type(2) div {
+        width: 100%
+    }
+
+    .contact > div section:nth-of-type(2) div:last-child {
+        margin-top: 50px;
+        width: 100%
+    }
+
+    footer > div:first-of-type {
+        flex-direction: column;
+        align-items: flex-start
+    }
+
+    footer > div:first-of-type section {
+        width: 90%;
+        margin-bottom: 75px
+    }
+}
