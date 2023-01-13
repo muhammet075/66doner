@@ -494,7 +494,7 @@ main {
     }
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:600px) {    
     header > div:nth-of-type(2) a img {
         width: 90px
     }
@@ -503,6 +503,15 @@ main {
         flex-direction: column-reverse;
         align-items: flex-start;
         padding-bottom: 150px !important
+    }
+    
+    .hero > div section:nth-of-type(2) img{
+        animation: none;
+        transform: none;
+    }
+    
+    .donerkortingtext{
+        margin: 0 0 50px 0;
     }
 
     .bestelcontainer {
@@ -546,9 +555,7 @@ main {
 .overons > div {
     margin: 0 auto;
     max-width: 1200px;
-    background: #f7cc8a;
     padding: 50px 50px;
-    border-radius: 25px;
 }
 
 .overons > div section:first-of-type h2 {
